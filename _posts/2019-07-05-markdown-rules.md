@@ -1,47 +1,36 @@
 ---
 layout: post
-title: MarkDown 语法
+title: MarkDown 语法(On MacDown)
 
 date: 2019-07-05 21:11:11.000000000 +09:00
 tags: markdown
 ---
-# MacDown
 
 ![MacDown logo](http://macdown.uranusjr.com/static/images/logo-160.png)
+## Markdown and MacDown
 
-Hello there! I’m **MacDown**, the open source Markdown editor for OS X.
-
-Let me introduce myself.
-
-
-
-## Markdown and I
-
-**Markdown** is a plain text formatting syntax created by John Gruber, aiming to provide a easy-to-read and feasible markup. The original Markdown syntax specification can be found [here](http://daringfireball.net/projects/markdown/syntax).
-
-**MacDown** is created as a simple-to-use editor for Markdown documents. I render your Markdown contents real-time into HTML, and display them in a preview panel.
+**MacDown**:render Markdown contents real-time into HTML, and display them in a preview panel.
 
 ![MacDown Screenshot](http://d.pr/i/10UGP+)
 
-I support all the original Markdown syntaxes. But I can do so much more! Various popular but non-standard syntaxes can be turned on/off from the [**Markdown** preference pane](#markdown-pane).
+MacDown support all the original Markdown syntaxes and it can do so much more. Various popular but non-standard syntaxes can be turned on/off from the [**Markdown** preference pane](#markdown-pane).
 
-You can specify extra HTML rendering options through the [**Rendering** preference pane](#rendering-pane).
+People can specify extra HTML rendering options through the [**Rendering** preference pane](#rendering-pane).
 
-You can customize the editor window to you liking in the [**Editor** preferences pane](#editor-pane):
+People  can customize the editor window to you liking in the [**Editor** preferences pane](#editor-pane):
 
 You can configure various application (that's me!) behaviors in the [**General** preference pane](#general-pane).
 
 ## The Basics
-Before I tell you about all the extra syntaxes and capabilities I have, I'll introduce you to the basics of standard markdown. If you already know markdown, and want to jump straight to learning about the fancier things I can do, I suggest you skip to the [**Markdown** preference pane](#markdown-pane). Lets jump right in.  
-
+To learn about fance things, skip to the [**Markdown** preference pane](#markdown-pane).
 ### Line Breaks
-To force a line break, put two spaces and a newline (return) at the end of the line.
-
-* This two-line bullet 
-won't break
+To force a line break, **put two spaces and a 
+ newline (return) at the end of the line**.
 
 * This two-line bullet  
-will break
+won't break
+
+* This two-line bullet will break
 
 Here is the code:
 
@@ -79,13 +68,13 @@ or
 
 ### Links and Email
 #### Inline
-Just put angle brackets around an email and it becomes clickable: <uranusjr@gmail.com>  
+1.Just put angle brackets around an email and it becomes clickable: <uranusjr@gmail.com>  
 `<uranusjr@gmail.com>`  
 
-Same thing with urls: <http://macdown.uranusjr.com>  
+2.Same thing with urls: <http://macdown.uranusjr.com>  
 ` <http://macdown.uranusjr.com>`  
 
-Perhaps you want to some link text like this: [Macdown Website](http://macdown.uranusjr.com "Title")  
+3.Perhaps you want to some link text like this: [Macdown Website](http://macdown.uranusjr.com "Title")  
 `[Macdown Website](http://macdown.uranusjr.com "Title")` (The title is optional)  
 
 
@@ -119,7 +108,7 @@ on it's own line elsewhere:
 	* Indent a level to make a nested list
 		1. Ordered lists are supported.
 		2. Start each item (number-period-space) like `1. `
-		42. It doesn't matter what number you use, I will render them sequentially
+		42. It doesn't matter what number you use, MacDown will render them sequentially
 		1. So you might want to start each line with `1.` and let me sort it out
 
 Here is the code:
@@ -233,8 +222,12 @@ print('Hello world!')
 
 You can also use waves (`~`) instead of back ticks (`` ` ``):
 
-~~~
+~~~python
 print('Hello world!')
+list = [1, 2, 3, 5]
+foo = (5,7,8,9)
+for f, b in zip(list, foo):
+	print(f,b)
 ~~~
 
 
@@ -242,12 +235,12 @@ You can add an optional language ID at the end of the first line. The language I
 
 ![Syntax highlighting example](http://d.pr/i/9HM6+)
 
-I support many popular languages as well as some generic syntax descriptions that can be used if your language of choice is not supported. See [relevant sections on the official site](http://macdown.uranusjr.com/features/) for a full list of supported syntaxes.
+
 
 
 ### Inline Formatting
 
-The following is a list of optional inline markups supported:
+The following is a list of <mark>optional</mark> inline markups supported:
 
 Option name         | Markup           | Result if enabled     |
 --------------------|------------------|-----------------------|

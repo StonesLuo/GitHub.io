@@ -2,18 +2,21 @@
 layout: post
 title: Jekyll 搭建 Github Pages 个人博客
 
-date: 2019-07-05 20:11:11.000000000 +09:00
+date: 2019-07-05 21:11:11.000000000 +09:00
 tags: Jekyll Github 
 ---
 
-
+***
 ## Git commands to update online pages:
+
 
 ```
 git add --all
 git commit -m "First Push"
 git push -u origin master
 ```
+
+***
 ## Local repository sets & edits:
 
 ### 1. Install jekyll
