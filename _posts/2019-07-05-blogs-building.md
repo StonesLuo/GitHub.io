@@ -7,31 +7,32 @@ tags: Jekyll Github
 ---
 
 
-## Git command needed:
+## Git commands to update online pages:
 
 ```
 git add --all
 git commit -m "First Push"
 git push -u origin master
 ```
-## Local repository setting
+## Local repository sets & edits:
 
-### 1. Install jekyll & init the repository
+### 1. Install jekyll
 ```
 brew install ruby
 gem install jekyll bundler
 ```
 
-#### cd to github pages path, then init
+### 2. Init the repository & start local web pages
+
+#### 2.1 cd to github pages path & init:
 ```
 jekyll new . --force
 ```
-
-### 2. Start the local web pages:
+#### 2.2 then start local web pages:
 ```
 bundle exec jekyll serve
 ```
-#### then visit 127.0.0.1:4000
+#### 2.3 visit the blogs locally at 127.0.0.1:4000 .
 
 ### 3. Markdown files 
 #### 3.1 file name:
