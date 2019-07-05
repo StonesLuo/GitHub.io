@@ -13,17 +13,17 @@ permalink: /:year/:month/:title/
 highlighter: rouge
 
 # supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
-cover_color:
+# cover_color:red
 
 # The blog button should not be removed.
 blog_button:
-    title: Blog
+    title: Blogs
     description: Visit blog
 
 # Navigation buttons in the front page.
-nav:
-    - {title: Projects, description: My Projects, url: 'https://github.com/StonesLuo'}
-    # - {title: Another Button, description: A button, url: 'http://example.com'}
+# nav:
+#     - {title: Projects, description: My Projects, url: 'https://github.com/StonesLuo'}
+#     # - {title: Another Button, description: A button, url: 'http://example.com'}
 
 # Pagination
 plugins: [jekyll-paginate]
@@ -32,7 +32,7 @@ paginate_path: "page/:num/"
 
 # Comment
 comment:
-    disqus: vno-jekyll
+    disqus: stonesluo
     # duoshuo: 
     
 # Social
@@ -40,7 +40,7 @@ social:
     weibo: 2240449160
     github: StonesLuo
     twitter: 302555998
-    facebook: lei.luo.547
+    # facebook: lei.luo.547
     # gplus: 107108267983477358170
     mail: 302555998@qq.com
 
