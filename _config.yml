@@ -1,11 +1,11 @@
 # Basic
 title: StonesLuo
 subtitle: Stones的学习小站
-#welcome_message: <a href="https://github.com/onevcat/vno-jekyll" target="_blank">Download the theme</a>
-# description: Vno Jekyll is a port of my Ghost theme vno.
-creator: <a href="http://onev.cat">@onevcat</a>
+# welcome_message: <a href="https://github.com/onevcat/vno-jekyll" target="_blank">Download the theme</a>
+description: 菜鸡研究僧的进击之路.
+# creator: <a href="http://onev.cat">@onevcat</a>
 
-url: "http://vno.onevcat.com"
+url: "https://stonesluo.github.io/#blog"
 
 permalink: /:year/:month/:title/
 
