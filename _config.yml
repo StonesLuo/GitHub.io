@@ -2,10 +2,10 @@
 title: StonesLuo
 subtitle: Laziness is the Sin
 # welcome_message: <a href="https://github.com/onevcat/vno-jekyll" target="_blank">Download the theme</a>
-description: CV方向硕士研究生在读
+description: CV硕士研究生,在读
 # creator: <a href="http://onev.cat">@onevcat</a>
 
-url: "https://stonesluo.github.io/#blog"
+url: "https://stonesluo.github.io"
 
 permalink: /:year/:month/:title/
 
@@ -17,13 +17,13 @@ highlighter: rouge
 
 # The blog button should not be removed.
 blog_button:
-    title: Blogs
-    description: Visit blog
+    title: CS Basic
+    description: Visit CS Basic blogs
 
 # Navigation buttons in the front page.
-# nav:
-#     - {title: Projects, description: My Projects, url: 'https://github.com/StonesLuo'}
-#     # - {title: Another Button, description: A button, url: 'http://example.com'}
+nav:
+    - {title: ML&DL, description: Blogs on ML&DL, url: ''}
+    - {title: Algorithom, description: Blogs on Algorithom, url: ''}
 
 # Pagination
 plugins: [jekyll-paginate]

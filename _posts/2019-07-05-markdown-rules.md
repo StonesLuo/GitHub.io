@@ -240,7 +240,7 @@ You can add an optional language ID at the end of the first line. The language I
 
 ### Inline Formatting
 
-The following is a list of <mark>optional</mark> inline markups supported:
+The following is a list of optional inline markups supported:
 
 Option name         | Markup           | Result if enabled     |
 --------------------|------------------|-----------------------|
