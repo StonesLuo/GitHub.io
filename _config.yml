@@ -5,7 +5,7 @@ welcome_message: <a href="https://github.com/StonesLuo/stonesluo.github.io" targ
 description: CV硕士研究生,在读
 # creator: <a href="http://onev.cat">@onevcat</a>
 
-url: "https://stonesluo.github.io/ml-dl"
+url: "https://stonesluo.github.io"
 
 permalink: /:year/:month/:title/
 
@@ -23,8 +23,8 @@ blog_button:
 # Navigation buttons in the front page.
 nav:
     - {title: CS-Basic, description: Blogs on ML&DL, url: 'https://stonesluo.github.io/cs-basic/#blog'}
-    - {title: ML&DL, description: Blogs on ML&DL, url: 'https://stonesluo.github.io/ml-dl/#blog'}
     - {title: Algorithm, description: Blogs on Algorithm, url: 'https://stonesluo.github.io/algor/#blog'}
+    - {title: ML&DL, description: Blogs on ML&DL, url: 'https://stonesluo.github.io/ml-dl/#blog'}
 
 # Pagination
 plugins: [jekyll-paginate]
