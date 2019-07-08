@@ -2,10 +2,10 @@
 title: StonesLuo
 subtitle: Laziness is the Sin
 welcome_message: <a href="https://github.com/StonesLuo/stonesluo.github.io" target="_blank">Blogs Repo</a>
-description: CV方向研究生,在读
+description: 进阶码农
 # creator: <a href="http://onev.cat">@onevcat</a>
 
-url: "https://stonesluo.github.io"
+url: "http://stonesluo.com"
 
 permalink: /:year/:month/:title/
 
@@ -22,10 +22,10 @@ blog_button:
 
 # Navigation buttons in the front page.
 nav:
-    - {title: CS基础, description: Blogs on ML&DL, url: 'https://stonesluo.github.io/cs-basic/#blog'}
-    - {title: 算法题, description: Blogs on Algorithm, url: 'https://stonesluo.github.io/algor/#blog'}
-    - {title: 机器学习, description: Blogs on ML&DL, url: 'https://stonesluo.github.io/ml-dl/#blog'}
-    - {title: 阅读笔记, description: Blogs on Readings, url: 'https://stonesluo.github.io/readings/#blog'}
+    - {title: CS基础, description: Blogs on ML&DL, url: 'http://stonesluo.com/cs-basic/#blog'}
+    - {title: 算法题, description: Blogs on Algorithm, url: 'http://stonesluo.com/algor/#blog'}
+    - {title: 机器学习, description: Blogs on ML&DL, url: 'http://stonesluo.com/ml-dl/#blog'}
+    - {title: 阅读笔记, description: Blogs on Readings, url: 'http://stonesluo.com/readings/#blog'}
 
 
 # Pagination
@@ -45,7 +45,7 @@ social:
     twitter: 302555998
     # facebook: lei.luo.547
 #     gplus: 107108267983477358170
-    mail: 302555998@qq.com
+    mail: stonesluo@gmail.com
 
 # Google Analytics
 ga:
