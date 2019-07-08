@@ -1,5 +1,5 @@
 ---
-title: logistic regression
+title: Logistic Regression
 
 date: 2019-07-08 23:50:11.000000000 +09:00
 
