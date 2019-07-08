@@ -3,7 +3,7 @@ layout: post
 title: MarkDown 语法(On MacDown)
 
 date: 2019-07-05 21:11:11.000000000 +09:00
-tags: cs-basic,markdown
+tags: cs-basic, markdown
 ---
 
 ![MacDown logo](http://macdown.uranusjr.com/static/images/logo-160.png)
