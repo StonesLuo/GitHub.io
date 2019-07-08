@@ -1,9 +1,10 @@
 ---
 layout: post
-title: lc-array1-easy-1，26，27
+title: lc-array1-easy-1,26,27
 date: 2019-07-08 22:00:11.000000000 +09:00
-tags: array,leetcode,
+tags: array,leetcode
 ---
+
 # 1. [two sum](https://leetcode.com/problems/two-sum/description/)
 Given an array of integers, return indices of the two numbers such that they add up to a specific target.
 You may assume that each input would have exactly one solution, and you may not use the same element twice.
