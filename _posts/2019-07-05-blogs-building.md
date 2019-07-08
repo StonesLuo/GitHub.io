@@ -3,7 +3,7 @@ layout: post
 title: Jekyll 搭建 Github Pages 个人博客
 
 date: 2019-07-05 21:11:11.000000000 +09:00
-tags: Jekyll Github 
+tags: cs-basic,Jekyll,Github 
 ---
 
 ***
@@ -37,7 +37,7 @@ bundle exec jekyll serve
 ```
 #### 2.3 visit the blogs locally at 127.0.0.1:4000 .
 
-### 3. Markdown files 
+### 3. Markdown files
 #### 3.1 file name:
 ```
 年-月-日-标题.markdown
@@ -48,6 +48,6 @@ bundle exec jekyll serve
 layout: post
 title: Blogging Like a Hacker
 date: 2019-07-05 20:11:11.000000000 +09:00
-tags: Jekyll Github 
+tags: Jekyll Github
 ---
 ```
